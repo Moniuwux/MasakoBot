@@ -54,7 +54,6 @@ class ApiConfig:
     http_timeout: float = float(os.getenv("HTTP_TIMEOUT_SECONDS", "10"))
     http_retries: int = int(os.getenv("HTTP_MAX_RETRIES", "2"))
     cat_api_key: str = os.getenv("CAT_API_KEY", "")
-    cat_api_url: str = "https://api.thecatapi.com/v1"
     
     # APIs de entretenimiento
     open_meteo_url: str = "https://api.open-meteo.com/v1"
